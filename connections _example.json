@@ -1,0 +1,121 @@
+[
+  {
+    "parentIdentifier": "ROOT",
+    "name": "web-server",
+    "protocol": "ssh",
+    "parameters": {
+      "hostname": "10.200.1.101",
+      "port": "22",
+      "username": "user",
+      "password": "TOCHANGE"
+    },
+    "attributes": {
+      "description": "example",
+      "max-connections": "5",
+      "max-connections-per-user": "2",
+      "weight": "1"
+    }
+  },
+  {
+    "parentIdentifier": "ROOT",
+    "name": "db-server",
+    "protocol": "ssh",
+    "parameters": {
+      "hostname": "10.200.1.100",
+      "port": "22",
+      "username": "user",
+      "password": "TOCHANGE"
+    },
+    "attributes": {
+      "description": "example",
+      "max-connections": "5",
+      "max-connections-per-user": "2",
+      "weight": "1"
+    }
+  },
+  {
+    "parentIdentifier": "ROOT",
+    "name": "cache-server",
+    "protocol": "ssh",
+    "parameters": {
+      "hostname": "10.200.1.102",
+      "port": "22",
+      "username": "user",
+      "password": "TOCHANGE"
+    },
+    "attributes": {
+      "description": "example",
+      "max-connections": "5",
+      "max-connections-per-user": "2",
+      "weight": "1"
+    }
+  },
+  {
+    "parentIdentifier": "ROOT",
+    "name": "cmpt-server",
+    "protocol": "ssh",
+    "parameters": {
+      "hostname": "10.200.1.103",
+      "port": "22",
+      "username": "user",
+      "password": "TOCHANGE"
+    },
+    "attributes": {
+      "description": "example",
+      "max-connections": "5",
+      "max-connections-per-user": "2",
+      "weight": "1"
+    }
+  },
+  {
+    "parentIdentifier": "ROOT",
+    "name": "cpt-server",
+    "protocol": "ssh",
+    "parameters": {
+      "hostname": "10.200.1.104",
+      "port": "22",
+      "username": "user",
+      "password": "TOCHANGE"
+    },
+    "attributes": {
+      "description": "example",
+      "max-connections": "5",
+      "max-connections-per-user": "2",
+      "weight": "1"
+    }
+  },
+  {
+    "parentIdentifier": "ROOT",
+    "name": "san-server",
+    "protocol": "ssh",
+    "parameters": {
+      "hostname": "10.200.1.105",
+      "port": "22",
+      "username": "user",
+      "password": "TOCHANGE"
+    },
+    "attributes": {
+      "description": "example",
+      "max-connections": "5",
+      "max-connections-per-user": "2",
+      "weight": "1"
+    }
+  },
+  {
+    "parentIdentifier": "ROOT",
+    "name": "nas-server",
+    "protocol": "ssh",
+    "parameters": {
+      "hostname": "10.200.1.106",
+      "port": "22",
+      "username": "user",
+      "password": "TOCHANGE"
+    },
+    "attributes": {
+      "description": "example",
+      "max-connections": "5",
+      "max-connections-per-user": "2",
+      "weight": "1"
+    }
+  }
+]
